@@ -1,7 +1,7 @@
 console.clear();
 
 const simplex = new SimplexNoise();
-let c = chroma.scale(["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"]);
+let c = chroma.scale(["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"]); // define the colors
 let fake = document.querySelector(".fake");
 let ctx = fake.getContext("2d");
 
