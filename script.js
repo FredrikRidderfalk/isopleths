@@ -19,7 +19,7 @@ function setupPaths(paths) {
       },
       {
         tween: 1,
-        duration: p.length * 0.01 + 1,
+        duration: p.length * 0.01 + 1, // change the speed
         delay: Math.random() * 5,
         ease: "power2.inOut",
         onStart: () => {
